@@ -1,4 +1,4 @@
-# Designing Digital Voting Systems for Citizens: Achieving Fairness and Legitimacy in Participatory Budgeting 
+# Designing Digital Voting Systems for Citizens
 
 This repository contains data from the study **Designing Digital Voting Systems for Citizens: Achieving Fairness and Legitimacy in Participatory Budgeting** by Joshua C. Yang, Carina I. Hausladen, Dominik Peters, Evangelos Pournaras, Regula Hänggli Fricker, and Dirk Helbing. The paper has been submitted to the ACM _Digital Government: Research and Practice_ Journal. The latest version of the paper is available here on [arXiv](https://arxiv.org/abs/2310.03501).
 
@@ -88,6 +88,17 @@ The repository includes:
 - The data from the study (`responses.json`).
 - The Qualtrics survey screens used in the study (`study_export.html`).
 - The votes in pabulib `.pb` format, one file for each voting input format.
+
+## Connected Paper on Fairness and Legitimacy
+
+Hänggli Fricker, R., Wellings, T., Zai, F., Yang, J. C., Majumdar, S., Bernhard, L., Weil, L., Hausladen, C. I., & Pournaras, E. (2024). Exploring Legitimacy: Empirical Insights into Citizens' Perceptions within Switzerland. Submitted to Philosophical Transactions special issue “Co-Creating the Future: Participatory Cities and Digital Governance".
+
+A segment of the data available in this repository was utilised in the paper also financed by the Swiss National Science Foundation(SNSF) as part of the National Research Programme NRP77 Digital Transformation, project no. 187249. The research delves into the notions of fairness and trustworthiness as perceived by citizens, particularly within the context of Participatory Budgeting (PB) in Switzerland. This study employed a subset of the data concerning participants' fairness and trustworthiness ratings for different voting methods, both before and after receiving explanatory information, as well as regression analyses to understand satisfaction under various voting conditions.
+
+Please refer to the respective tables in the paper for an in-depth analysis:
+- Table 4: Fairness and Trustworthiness Ratings Before and After Explanations for Greedy and ES Methods. (We utilised `fairness` and `trustworthiness` in `firstRating` and `secondRating`)
+- Table 11: OLS Regression Results for Satisfaction under Different Voting Methods in Zurich. (The additional `Winning` variable was calculated using the budget participant win in the simulated outcome with their S5 vote)
+- Table 12: Logistic Regression Results Predicting Incentivized Choice. (We used the difference between the rating of `satisfaction`, `fairness`, `trustworthiness` for the two aggregation methods as independent variables)
 
 ## Citation
 
