@@ -109,9 +109,21 @@ Yang, J. C., Hausladen, C. I., Peters, D., Pournaras, E., Hänggli Fricker, R., 
 ### BibTeX Entry
 
 ```bibtex
-@article{yang2024,
-  title={Designing Digital Voting Systems for Citizens: Achieving Fairness and Legitimacy in Participatory Budgeting},
-  author={Yang, Joshua C. and Hausladen, Carina I. and Peters, Dominik and Pournaras, Evangelos and H{\"a}nggli Fricker, Regula and Helbing, Dirk},
-  year={2024},
-  doi={10.48550/arXiv.2310.03501}
+@article{10.1145/3665332,
+author = {Yang, Joshua C. and Hausladen, Carina I. and Peters, Dominik and Pournaras, Evangelos and Hnggli Fricker, Regula and Helbing, Dirk},
+title = {Designing Digital Voting Systems for Citizens: Achieving Fairness and Legitimacy in Participatory Budgeting},
+year = {2024},
+issue_date = {September 2024},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {5},
+number = {3},
+url = {https://doi.org/10.1145/3665332},
+doi = {10.1145/3665332},
+abstract = {Participatory Budgeting (PB) has evolved into a key democratic instrument for resource allocation in cities. Enabled by digital platforms, cities now have the opportunity to let citizens directly propose and vote on urban projects, using different voting input and aggregation rules. However, the choices cities make in terms of the rules of their PB have often not been informed by academic studies on voter behaviour and preferences. Therefore, this work presents the results of behavioural experiments where participants were asked to vote in a fictional PB setting. We identified approaches to designing PB voting that minimise cognitive load and enhance the perceived fairness and legitimacy of the digital process from the citizens’ perspective. In our study, participants preferred voting input formats that are more expressive (like rankings and distributing points) over simpler formats (like approval voting). Participants also indicated a desire for the budget to be fairly distributed across city districts and project categories. Participants found the Method of Equal Shares voting rule to be fairer than the conventional Greedy voting rule. These findings offer actionable insights for digital governance, contributing to the development of fairer and more transparent digital systems and collective decision-making processes for citizens.},
+journal = {Digit. Gov.: Res. Pract.},
+month = sep,
+articleno = {26},
+numpages = {30},
+keywords = {Participatory budgeting, digital democracy, collective decision-making, explainable AI, trust, legitimacy}
 }
